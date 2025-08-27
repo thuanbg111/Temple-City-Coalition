@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>About — TEMPLE City Coalition</title>
+<link rel="stylesheet" href="assets/styles.css"/><link rel="icon" href="images/logo.png">
+</head><body><header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="TEMPLE City Coalition logo"></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="links" aria-label="Main">
+      <a href="about.html" class="active">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="governance.html">Governance</a>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section container split">
+  <div>
+    <h1>About Us</h1>
+    <p><strong>TEMPLE City Coalition</strong> (incorporated 2020) is organized under California’s Nonprofit Public Benefit Corporation Law for charitable purposes.</p>
+    <p><em>Specific purpose:</em> to support <strong>Christopher Elementary School</strong> through fundraising, volunteerism, and community engagement that enriches learning and strengthens the school community.</p>
+    <p>We operate as a recognized <strong>501(c)(3)</strong> nonprofit public benefit corporation, EIN <strong>84-3370961</strong>. Contributions may be tax‑deductible to the extent allowed by law.</p>
+    <ul class="checklist">
+      <li>Public & charitable purposes (Articles of Incorporation)</li>
+      <li>No private inurement or political campaigning</li>
+      <li>Assets dedicated to educational and charitable purposes</li>
+    </ul>
+  </div>
+  <figure><img src="images/about.jpg" alt="Parents and staff working together"></figure>
+</main>
+
+<section class="section container grid-3">
+  <div class="card"><div class="card-body">
+    <strong>Initial Address</strong>
+    <p class="small">5957 Golden West Ave, Temple City, CA 91780</p>
+  </div></div>
+  <div class="card"><div class="card-body">
+    <strong>Initial Agent</strong>
+    <p class="small">Rev. David Palmer — 5957 Golden West Ave, Temple City, CA 91780</p>
+  </div></div>
+  <div class="card"><div class="card-body">
+    <strong>Incorporator</strong>
+    <p class="small">Gloria Moreno (Executed March 2, 2020)</p>
+  </div></div>
+</section>
+
+<section class="section container">
+  <div class="card"><div class="card-body">
+    <strong>What We Do</strong>
+    <p class="small">We coordinate fundraisers, recruit volunteers, host school events, publish meeting minutes, and recognize sponsors—all to benefit Christopher Elementary students and educators.</p>
+  </div></div>
+</section>
+
+<footer class="footer">
+  <div class="container grid">
+    <div>
+      <img src="images/logo.png" alt="" style="width:160px;height:auto;margin-bottom:.5rem;">
+      <div class="small">© <span id="year"></span> TEMPLE City Coalition</div>
+      <div class="small">A California Nonprofit Public Benefit Corporation — EIN 84-3370961</div>
+    </div>
+    <div>
+      <div class="small"><strong>Registered in California</strong><br>Nonprofit Public Benefit Corporation (501(c)(3))</div>
+    </div>
+    <div>
+      <div class="small">
+        <strong>Address:</strong><br>5957 Golden West Ave, Temple City, CA 91780<br>
+        <strong>Phone:</strong> <a href="tel:+16692089380">+1 669 208 9380</a><br>
+		<strong>Email:</strong> <a href="mailto:contact@templecitycoalition.online">contact@templecitycoalition.online</a><br>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const b=document.querySelector('.menu-toggle'),l=document.querySelector('.links');
+  if(b&&l){b.addEventListener('click',()=>{const o=l.style.display==='flex';l.style.display=o?'none':'flex';b.setAttribute('aria-expanded',o?'false':'true');});}
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+</script>
+</body></html>

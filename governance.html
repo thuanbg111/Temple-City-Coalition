@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Governance — TEMPLE City Coalition</title>
+<link rel="stylesheet" href="assets/styles.css"/><link rel="icon" href="images/logo.png">
+</head><body><header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="TEMPLE City Coalition logo"></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="links" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="governance.html" class="active">Governance</a>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section container split">
+  <div>
+    <h1>Governance & Legal</h1>
+    <p>Organized and operated exclusively for purposes within the meaning of Internal Revenue Code section <strong>501(c)(3)</strong>. No substantial part of activities includes attempts to influence legislation or participation in political campaigns.</p>
+    <p><strong>EIN:</strong> 84-3370961</p>
+    <p><strong>Initial Agent for Service of Process:</strong> Nicole M. Hemander</p>
+    <p><strong>Initial Address:</strong><br>5957 Golden West Ave<br>Temple City, CA 91780</p>
+    <p class="small">Upon dissolution, assets will be distributed to a 501(c)(3) organization organized for charitable and/or educational purposes.</p>
+  </div>
+  <figure><img src="images/sponsors.jpg" alt="Documents and compliance"></figure>
+</main>
+
+<footer class="footer">
+  <div class="container grid">
+    <div>
+      <img src="images/logo.png" alt="" style="width:160px;height:auto;margin-bottom:.5rem;">
+      <div class="small">© <span id="year"></span> TEMPLE City Coalition</div>
+      <div class="small">A California Nonprofit Public Benefit Corporation — EIN 84-3370961</div>
+    </div>
+    <div>
+      <div class="small"><strong>Registered in California</strong><br>Nonprofit Public Benefit Corporation (501(c)(3))</div>
+    </div>
+    <div>
+      <div class="small">
+        <strong>Address:</strong><br>5957 Golden West Ave, Temple City, CA 91780<br>
+        <strong>Phone:</strong> <a href="tel:+16692089380">+1 669 208 9380</a><br>
+		<strong>Email:</strong> <a href="mailto:contact@templecitycoalition.online">contact@templecitycoalition.online</a><br>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const b=document.querySelector('.menu-toggle'),l=document.querySelector('.links');
+  if(b&&l){b.addEventListener('click',()=>{const o=l.style.display==='flex';l.style.display=o?'none':'flex';b.setAttribute('aria-expanded',o?'false':'true');});}
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+</script>
+</body></html>
