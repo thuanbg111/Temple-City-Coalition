@@ -1,0 +1,12 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="180" viewBox="0 0 700 180" role="img" aria-label="Christopher Parent Lighthouse Team">
+  <rect width="700" height="180" fill="#ffffff"/>
+  <g font-family="Inter,Segoe UI,Roboto,Arial" font-weight="900" fill="#14532d">
+    <text x="38" y="118" font-size="96">CPLT</text>
+  </g>
+  <path d="M220 54c14-16 40-18 56-2-18 9-34 17-56 2z" fill="#166534"/>
+  <circle cx="264" cy="56" r="3" fill="#166534"/>
+  <g fill="#0b3b1f" font-family="Inter,Segoe UI,Roboto,Arial" font-weight="700" font-size="22">
+    <text x="40" y="160">Christopher Parent Lighthouse Team</text>
+  </g>
+</svg>
